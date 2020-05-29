@@ -24,8 +24,8 @@ class ClamavValidator extends Validator
      */
     public function __construct(
         Translator $translator,
-        array $data,
-        array $rules,
+        array $data = [],
+        array $rules = [],
         array $messages = [],
         array $customAttributes = []
     ) {
